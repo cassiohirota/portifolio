@@ -1,0 +1,58 @@
+body,
+html {
+    font-family: 'Oswald', sans-serif;
+    background: url(../assets/background.jpg) no-repeat top center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#header {
+    width: 100%;
+    transition: background ease-out 0.2s;
+}
+
+.button {
+    text-transform: lowercase;
+    font-weight: 500;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+}
+
+h4:hover{
+    color: white;
+    -webkit-transition-duration: .50s;
+}
+
+#projetos a.destaque .img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+img{
+    border-radius: 20px;
+  }
+a {
+    text-decoration: none;
+    color: #28242c;
+}
+
+#projetos a:hover {
+    color: white;
+    -webkit-transition-duration: .50s;
+}
+
+#rodape {
+    background-color: #28242c;
+}
+
+#rodape .container {
+    padding: 10px 0;
+    text-align: center;
+}
+
+#rodape .container p {
+    margin-bottom: 0;
+    color: white;
+}
+
