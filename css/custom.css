@@ -56,3 +56,21 @@ a {
     color: white;
 }
 
+
+#slider{
+    height: 900px;
+    padding: 70px;
+    padding-right: 20px;
+}
+#sobre{
+    height: 900px;
+    padding: 70px;
+}
+#projetos{
+    height: 800px;
+    padding: 100px;
+}
+#contato{
+    height: 600px;
+    padding-bottom: 150px;
+}
